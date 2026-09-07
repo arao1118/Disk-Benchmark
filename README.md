@@ -1,7 +1,3 @@
-from pathlib import Path
-
-readme = r'''# Disk Write Benchmark
-
 A Linux-oriented C++ disk I/O benchmark that measures:
 
 - **Sequential zero-data write throughput**
