@@ -6,7 +6,7 @@ A Linux-oriented C++ disk I/O benchmark that measures:
 
 The benchmark uses **direct I/O (`O_DIRECT`)**, aligned memory buffers, `fsync()`, and `pwrite()` to reduce the influence of the page cache and provide more representative storage-device measurements.
 
-> **Important:** This program is currently written for Linux/POSIX environments. Although `<windows.h>` is included, the implementation uses Linux-specific APIs such as `/dev/zero`, `/dev/urandom`, `O_DIRECT`, `fallocate()`, `clock_gettime()`, `posix_memalign()`, `DIR`, and `unistd.h`.
+> **Important:** This program is currently written for Linux/POSIX environments. The implementation uses Linux-specific APIs such as `/dev/zero`, `/dev/urandom`, `O_DIRECT`, `fallocate()`, `clock_gettime()`, `posix_memalign()`, `DIR`, and `unistd.h`.
 
 ---
 
